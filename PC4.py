@@ -45,7 +45,7 @@ pagina_seleccionada = st.sidebar.selectbox('Selecciona la sección que deseas ve
 if pagina_seleccionada == 'Inicio':
 
     # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-    st.markdown("<h1 style='text-align: center;'>Paso a paso, código a código💻✨☺️</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>¡MI BLOG!:Paso a paso, código a código💻✨☺️</h1>", unsafe_allow_html=True)
 
     # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
     # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -69,7 +69,7 @@ if pagina_seleccionada == 'Inicio':
     # Las columnas creadas se asignan a las variables col1 y col2.
 
     # En la primera columna colocamos la imagen de perfil
-    col1.image("foto.jpeg", caption='Una foto mía', width=300)
+    col1.image("foto.jpeg", caption='¡Una foto mía!', width=300)
 
     # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
     # La función image toma como primer argumento el nombre del archivo de la imagen que se desea mostrar. 
@@ -107,7 +107,7 @@ if pagina_seleccionada == 'Inicio':
 elif  pagina_seleccionada == 'Experiencia':
 
     # Agregamos un título
-    st.markdown("<h1 style='text-align: center;'>Mi experiencia aprendiendo a programar 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Mi experiencia aprendiendo a programar💻😮</h1>", unsafe_allow_html=True)
 
     # En esta sección debes describir y comentar tu experiencia aprendiendo a programar
     # ¿Cómo te sentiste al principio?, 
@@ -135,7 +135,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # En este caso, {texto_2} se reemplaza por el valor de la variable texto.
 
     # Agregamos un subtítulo para el video
-    st.markdown("<h2 style='text-align: center;'>Explicación sencilla!🤓 -> Diferencias entre los condicionales If, Elif, Else</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Explicación sencilla!🤓➡️ Diferencias entre los condicionales If, Elif, Else</h2>", unsafe_allow_html=True)
     
     # <h2 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tu video</h2>: Esta es una cadena de código HTML.
     # La etiqueta <h2> se utiliza para un encabezado de segundo nivel en una página web.
@@ -149,7 +149,7 @@ elif  pagina_seleccionada == 'Experiencia':
 
     # Agregamos un video realizado en las practicas anteriores
     st.video("https://www.youtube.com/watch?v=p8go9vagWfs&t=144s")
-    st.markdown("<h2 style='text-align: center;'>Lo básico de los bucles for y while🤓 -></h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Lo básico de los bucles for y while🤓➡️</h2>", unsafe_allow_html=True)
     st.video("https://www.youtube.com/watch?v=CzKspWQA1fg&t=11s")
     # st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E"): Esta línea está mostrando un video en la aplicación web.
     # La función video toma como primer argumento la URL del video que se desea mostrar.
@@ -177,7 +177,7 @@ elif  pagina_seleccionada == 'Experiencia':
 else:
 
     # Agregamos un título para la página de gráficos
-    st.markdown("<h1 style='text-align: center;'>Gráficos que hice en clase</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>¡Mis primeras gráficas en programación!👀</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
     graficos = ['Histograma de goles de Barcelona', 'Gráfico de barras de tarjetas rojas en equipos', 'Gráfico circular sobre resultados del Real Madrid como visitante', 'Mapa interactivo de mis películas favoritas']
@@ -245,4 +245,5 @@ else:
         #st_folium(mapa_cusco, width=700, height=500)
 
     
+
 
