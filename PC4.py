@@ -45,7 +45,7 @@ pagina_seleccionada = st.sidebar.selectbox('Selecciona la sección que deseas ve
 if pagina_seleccionada == 'Inicio':
 
     # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-    st.markdown("<h1 style='text-align: center;'>¡Aprendiendo a programar!☺️</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Paso a paso, código a código💻✨☺️</h1>", unsafe_allow_html=True)
 
     # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
     # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -83,11 +83,11 @@ if pagina_seleccionada == 'Inicio':
     # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
     texto = """
-    Soy Julieta Tamariz Tapia, tengo 22 años y nací el 29 de junio. Vivo en Lima, Perú y actualmente estudio Publicidad en la PUCP.<br><br>
-    Antes pensé seguir Psicología, pero con el tiempo me di cuenta de que lo que realmente me motiva es el proceso creativo: pensar ideas, comunicar y conectar desde distintos formatos. En mi carrera disfruto especialmente la parte creativa, la generación de conceptos y la posibilidad de transformar ideas en mensajes.<br><br>
-    A futuro, me gustaría trabajar en una agencia de publicidad, aunque también me interesa la idea de independizarme y desarrollar proyectos propios. Me llaman mucho la atención el marketing, la moda y también la fotografía, como forma de observar y narrar la realidad desde lo visual.<br><br>
-    En mi tiempo libre me encanta ir a la playa, montar bicicleta, salir a comer y ver películas, sobre todo en el cine y muchas veces acompañada de mi hermana. Escucho música todo el tiempo y disfruto mucho los conciertos, aunque últimamente no haya ido tanto. Amo el verano, salir con mis amigas y pasar tiempo con mi familia, con quienes vivo: mis papás, mi hermana y mi perrito Tony, al que siempre suelo sacar a pasear.<br><br>
-    También me gusta la repostería, especialmente hacer galletas y postres en general, sobre todo aquellos que llevan arándanos. Entre mis favoritos está el helado de menta. Disfruto estos pequeños momentos cotidianos como una forma de desconectarme y seguir creando desde otros espacios.
+    Soy Julieta Tamariz Tapia😀, tengo 22 años y nací el 29 de junio. Vivo en Lima, Perú y actualmente estudio Publicidad en la PUCP.<br><br>
+    Antes pensé seguir Psicología, pero con el tiempo me di cuenta de que lo que realmente me motiva es el proceso creativo: pensar ideas, comunicar y conectar desde distintos formatos😌👌. En mi carrera disfruto especialmente la parte creativa, la generación de conceptos y la posibilidad de transformar ideas en mensajes.<br><br>
+    A futuro, me gustaría trabajar en una agencia de publicidad, aunque también me interesa la idea de independizarme y desarrollar proyectos propios⭐. Me llaman mucho la atención el marketing, la moda y también la fotografía, como forma de observar y narrar la realidad desde lo visual.<br><br>
+    En mi tiempo libre me encanta ir a la playa, montar bicicleta, salir a comer y ver películas, sobre todo en el cine y muchas veces acompañada de mi hermana🍿😆🎥. Escucho música todo el tiempo y disfruto mucho los conciertos, aunque últimamente no haya ido tanto🥲. Amo el verano, salir con mis amigas y pasar tiempo con mi familia, con quienes vivo: mis papás, mi hermana y mi perrito Tony, al que siempre suelo sacar a pasear🐕💕.<br><br>
+    También me gusta la repostería, especialmente hacer galletas y postres en general, sobre todo aquellos que llevan arándanos. Entre mis favoritos está el helado de menta😋. Disfruto estos pequeños momentos cotidianos como una forma de desconectarme y seguir creando desde otros espacios.
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -149,7 +149,7 @@ elif  pagina_seleccionada == 'Experiencia':
 
     # Agregamos un video realizado en las practicas anteriores
     st.video("https://www.youtube.com/watch?v=p8go9vagWfs&t=144s")
-    st.markdown("<h2 style='text-align: center;'>Lo básico de los bucles for y while🤓-></h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'>Lo básico de los bucles for y while🤓 -></h2>", unsafe_allow_html=True)
     st.video("https://www.youtube.com/watch?v=CzKspWQA1fg&t=11s")
     # st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E"): Esta línea está mostrando un video en la aplicación web.
     # La función video toma como primer argumento la URL del video que se desea mostrar.
@@ -245,3 +245,4 @@ else:
         #st_folium(mapa_cusco, width=700, height=500)
 
     
+
