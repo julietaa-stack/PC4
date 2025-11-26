@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_36d4e618c3f79795e2515a678bd35b19 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_36d4e618c3f79795e2515a678bd35b19" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_36d4e618c3f79795e2515a678bd35b19 = L.map(
+                "map_36d4e618c3f79795e2515a678bd35b19",
+                {
+                    center: [10.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e9a70b3839017861c2fad7d8608a7a6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6e9a70b3839017861c2fad7d8608a7a6.addTo(map_36d4e618c3f79795e2515a678bd35b19);
+        
+    
+            var marker_ddfdb82a17c50f6fad58bd7ff97cbe0a = L.marker(
+                [42.4072, -71.3824],
+                {
+}
+            ).addTo(map_36d4e618c3f79795e2515a678bd35b19);
+        
+    
+            var icon_cd55418f14283d776e74dd7b638a26c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27140d6489f4c07900708970a3118c95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e589f17197e08a392bb66328d2e3e15e = $(`<div id="html_e589f17197e08a392bb66328d2e3e15e" style="width: 100.0%; height: 100.0%;"><b>Shutter Island</b><br> <b>Director:</b> Martin Scorsese<br> <b>Año:</b> 2010<br> <b>Género:</b> Drama<br> <b>Duración:</b> 2h 18min<br> <b>Actores:</b> Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Michelle Williams, Jackie Earle Haley<br> <b>Lugar:</b> Massachusetts, Estados Unidos</div>`)[0];
+                popup_27140d6489f4c07900708970a3118c95.setContent(html_e589f17197e08a392bb66328d2e3e15e);
+            
+        
+
+        marker_ddfdb82a17c50f6fad58bd7ff97cbe0a.bindPopup(popup_27140d6489f4c07900708970a3118c95)
+        ;
+
+        
+    
+    
+            marker_ddfdb82a17c50f6fad58bd7ff97cbe0a.bindTooltip(
+                `<div>
+                     Shutter Island
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ddfdb82a17c50f6fad58bd7ff97cbe0a.setIcon(icon_cd55418f14283d776e74dd7b638a26c1);
+            
+    
+            var marker_e054f02602668ea53a034d6aead7d1d7 = L.marker(
+                [-24.7829, -65.4232],
+                {
+}
+            ).addTo(map_36d4e618c3f79795e2515a678bd35b19);
+        
+    
+            var icon_fda99b0f19382cfd25fd5336507ccee5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c69214a738f059e748549cfe698f073 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f74c48c0769bcfea0f45c3a42312538 = $(`<div id="html_2f74c48c0769bcfea0f45c3a42312538" style="width: 100.0%; height: 100.0%;"><b>Relatos Salvajes</b><br> <b>Director:</b> Damián Szifron<br> <b>Año:</b> 2014<br> <b>Género:</b> Suspenso / Comedia<br> <b>Duración:</b> 2h 2min<br> <b>Actores:</b> Ricardo Darín, Oscar Martínez, Leonardo Sbaraglia, Érica Rivas, Rita Cortese, Julieta Zylberberg, Darío Grandinetti<br> <b>Lugar:</b> Salta, Argentina</div>`)[0];
+                popup_3c69214a738f059e748549cfe698f073.setContent(html_2f74c48c0769bcfea0f45c3a42312538);
+            
+        
+
+        marker_e054f02602668ea53a034d6aead7d1d7.bindPopup(popup_3c69214a738f059e748549cfe698f073)
+        ;
+
+        
+    
+    
+            marker_e054f02602668ea53a034d6aead7d1d7.bindTooltip(
+                `<div>
+                     Relatos Salvajes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e054f02602668ea53a034d6aead7d1d7.setIcon(icon_fda99b0f19382cfd25fd5336507ccee5);
+            
+    
+            var marker_a8aaa55e11e1441bc7854a146fb6092e = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_36d4e618c3f79795e2515a678bd35b19);
+        
+    
+            var icon_f4213df99f9bba5c91e6c56e051a9d6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22a750b503ade2026a909a0972083774 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4a416f85d796524149df62b0d087f05 = $(`<div id="html_b4a416f85d796524149df62b0d087f05" style="width: 100.0%; height: 100.0%;"><b>La Guerra de los Mundos</b><br> <b>Director:</b> Steven Spielberg<br> <b>Año:</b> 2005<br> <b>Género:</b> Ciencia ficción / Acción<br> <b>Duración:</b> 1h 56min<br> <b>Actores:</b> Tom Cruise, Dakota Fanning, Justin Chatwin<br> <b>Lugar:</b> Nueva York, Estados Unidos</div>`)[0];
+                popup_22a750b503ade2026a909a0972083774.setContent(html_b4a416f85d796524149df62b0d087f05);
+            
+        
+
+        marker_a8aaa55e11e1441bc7854a146fb6092e.bindPopup(popup_22a750b503ade2026a909a0972083774)
+        ;
+
+        
+    
+    
+            marker_a8aaa55e11e1441bc7854a146fb6092e.bindTooltip(
+                `<div>
+                     La Guerra de los Mundos
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a8aaa55e11e1441bc7854a146fb6092e.setIcon(icon_f4213df99f9bba5c91e6c56e051a9d6d);
+            
+    
+            var marker_c9782ee63e49385a58c5bdbd951b1f73 = L.marker(
+                [32.8067, -86.7911],
+                {
+}
+            ).addTo(map_36d4e618c3f79795e2515a678bd35b19);
+        
+    
+            var icon_be136c2a9a6db17a585ee3083859a698 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e6fdc5aff9e5dc1340dfb00ada77d0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db4aff369c980faa1d934bc51069d6dc = $(`<div id="html_db4aff369c980faa1d934bc51069d6dc" style="width: 100.0%; height: 100.0%;"><b>Supercool</b><br> <b>Director:</b> Greg Mottola<br> <b>Año:</b> 2007<br> <b>Género:</b> Comedia<br> <b>Duración:</b> 1h 53min<br> <b>Actores:</b> Jonah Hill, Michael Cera, Christopher Mintz-Plasse, Bill Hader, Seth Rogen, Martha MacIsaac, Emma Stone<br> <b>Lugar:</b> Alabama, Estados Unidos</div>`)[0];
+                popup_3e6fdc5aff9e5dc1340dfb00ada77d0a.setContent(html_db4aff369c980faa1d934bc51069d6dc);
+            
+        
+
+        marker_c9782ee63e49385a58c5bdbd951b1f73.bindPopup(popup_3e6fdc5aff9e5dc1340dfb00ada77d0a)
+        ;
+
+        
+    
+    
+            marker_c9782ee63e49385a58c5bdbd951b1f73.bindTooltip(
+                `<div>
+                     Supercool
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c9782ee63e49385a58c5bdbd951b1f73.setIcon(icon_be136c2a9a6db17a585ee3083859a698);
+            
+    
+            var marker_da916a05e7c8548354b9a59f834210fa = L.marker(
+                [-39.9333, 175.05],
+                {
+}
+            ).addTo(map_36d4e618c3f79795e2515a678bd35b19);
+        
+    
+            var icon_de4028eac4d1b575c030fb5ab4db4210 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ffba48f9a37b4d49802f7a2b70a41905 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2a5480369e4c2fdc9d17db251b17cb5 = $(`<div id="html_e2a5480369e4c2fdc9d17db251b17cb5" style="width: 100.0%; height: 100.0%;"><b>Pearl</b><br> <b>Director:</b> Ti West<br> <b>Año:</b> 2022<br> <b>Género:</b> Terror / Drama psicológico<br> <b>Duración:</b> 1h 42min<br> <b>Actores:</b> Mia Goth, David Corenswet, Tandi Wright, Matthew Sunderland, Emma Jenkins-Purro<br> <b>Lugar:</b> Whanganui, Nueva Zelanda</div>`)[0];
+                popup_ffba48f9a37b4d49802f7a2b70a41905.setContent(html_e2a5480369e4c2fdc9d17db251b17cb5);
+            
+        
+
+        marker_da916a05e7c8548354b9a59f834210fa.bindPopup(popup_ffba48f9a37b4d49802f7a2b70a41905)
+        ;
+
+        
+    
+    
+            marker_da916a05e7c8548354b9a59f834210fa.bindTooltip(
+                `<div>
+                     Pearl
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_da916a05e7c8548354b9a59f834210fa.setIcon(icon_de4028eac4d1b575c030fb5ab4db4210);
+            
+</script>
+</html>
